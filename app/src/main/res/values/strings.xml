@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Healthy Life</string>
+    <string name="title">Healthy Life</string>
+    <string name="welcome">Know your ideal weight </string>
+    <string name="screen">Welcome to Healthy Life </string>
+    <string name="txt1">Click  Here</string>
+
+    <string-array name="fitness_goals">
+        <item>Weight Loss</item>
+        <item>Muscle Building</item>
+        <item>Cardio Fitness</item>
+        <item>Flexibility</item>
+
+    </string-array>
+    <string-array name="sport_types">
+        <item>Individual</item>
+        <item>Team</item>
+    </string-array>
+
+
+</resources>

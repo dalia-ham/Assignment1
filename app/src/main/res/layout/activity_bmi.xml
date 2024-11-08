@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    tools:context=".BMI">
+
+
+    <ImageView
+        android:id="@+id/bmiImage"
+        android:layout_width="154dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/bmi" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your height  " />
+
+    <EditText
+        android:id="@+id/edtHeight"
+        android:layout_width="381dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Weight " />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+    <Button
+        android:id="@+id/btnBmiRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/txtResBMI"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtBMIStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="            Status: "
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtResBMI" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show Rule" />
+
+    <TextView
+        android:id="@+id/txtRule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        android:textSize="20sp"
+        android:textColor="@color/purpule"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtResBMI"
+        android:background="@color/pink"/>
+
+
+</LinearLayout>

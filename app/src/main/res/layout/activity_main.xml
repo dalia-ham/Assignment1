@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16sp"
+    android:background="@color/pink"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="16sp"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_short_1"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="324dp"
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/food1" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:hint="Please Enter Your Email Here."
+        android:inputType="textEmailAddress"
+        android:background="@android:drawable/editbox_background" />
+
+    <EditText
+        android:id="@+id/edtpasswrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:hint="Please Enter Your Password Here."
+        android:inputType="textPassword"
+        android:background="@android:drawable/editbox_background" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:background="@color/green2"
+        android:backgroundTint="@color/white"
+        android:text="Log in"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
